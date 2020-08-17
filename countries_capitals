@@ -1,0 +1,14 @@
+world = {
+    'Italy': 'Roma',
+    'France': 'Paris',
+    'UK': 'London',
+    'Germany': 'Berlin'
+}
+
+print('These are the countries I know:')
+for i in world:
+    print(i)
+
+choice = input('Which capital do you wanna know?\n')
+
+print("The capital of {} is {}.".format(choice, world[choice]))
